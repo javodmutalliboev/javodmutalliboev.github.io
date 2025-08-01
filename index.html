@@ -1,29 +1,40 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>My test page</title>
-  <link href="styles/style.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <h1>an opened MacBook along with a smartphone on a wood table in nature</h1>
-  <img src="images/download1.jpeg" alt="an opened MacBook along with a smartphone on a wood table in nature" />
-  <p>an opened MacBook along with a smartphone on a wood table in nature</p>
+  <header>
+    <h1>Hi, I'm Alex!</h1>
+    <p>Web Developer & Designer</p>
+  </header>
 
-  <ul>
-    <li>nature</li>
-    <li>wood table</li>
-    <li>MakBook</li>
-    <li>smartphone</li>
-  </ul>
+  <section class="about">
+    <img src="images/profile.jpg" alt="My Photo">
+    <p>I build websites that are fast, responsive, and user-friendly.</p>
+  </section>
 
-  <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a>
-  <button>Change user</button>
-  <script src="scripts/main.js"></script>
+  <section class="skills">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <div>Responsive Design</div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
 </body>
-
 </html>
